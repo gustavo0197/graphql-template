@@ -11,6 +11,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "@gustavo0197/graphql-typescript": "^1.0.0",
     "apollo-server": "^2.19.1",
     "dotenv": "^8.2.0",
     "graphql": "^15.4.0",

@@ -1,4 +1,4 @@
-import { Resolver, Subscription, prop, ctx } from "@decorators";
+import { Resolver, Subscription, prop, ctx } from "@gustavo0197/graphql-typescript";
 import { pubsub } from "@utils";
 
 @Resolver

@@ -1,4 +1,4 @@
-import { Resolver, Query, prop } from "@decorators";
+import { Resolver, Query, prop } from "@gustavo0197/graphql-typescript";
 
 @Resolver
 export default class HelloResolver {

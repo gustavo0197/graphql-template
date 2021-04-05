@@ -1,4 +1,4 @@
-import { Resolver, Mutation, prop } from "@decorators";
+import { Resolver, Mutation, prop } from "@gustavo0197/graphql-typescript";
 import { pubsub } from "@utils";
 
 @Resolver
