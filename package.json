@@ -7,7 +7,8 @@
     "node": "14"
   },
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "tsc"
   },
   "dependencies": {
     "apollo-server": "^2.19.1",
