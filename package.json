@@ -11,13 +11,12 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@gustavo0197/graphql-typescript": "^1.0.0",
+    "@gustavo0197/graphql-typescript": "^1.0.5",
     "apollo-server": "^2.19.1",
     "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.3",
-    "reflect-metadata": "^0.1.13",
     "subscriptions-transport-ws": "^0.9.18"
   },
   "devDependencies": {

@@ -768,6 +768,13 @@
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.0.tgz#0eee6373e11418bfe0b5638f654df7a4ca6a3950"
   integrity sha512-wYn6r8zVZyQJ6rQaALBEln5B1pzxb9shV5Ef97kTvn6yVGrqyXVnDqnU24MXnFubR+rZjBY9NWuxX3FB2sTsjg==
 
+"@gustavo0197/graphql-typescript@^1.0.5":
+  version "1.0.5"
+  resolved "https://npm.pkg.github.com/download/@gustavo0197/graphql-typescript/1.0.5/c8fb81944e5c93d49f98e00c8ec42968bbe7c7a64c851ad31ff08c036f2d08b2#226c8786357198f212b4ac856e1816e3ce521aca"
+  integrity sha512-rPC7Ux/FC0qxqItj/oskEgGioEHhdUqj56gVbEZON+OfgbKgv9DM1OwW3r7QLy53Zs0T4Ep8p3o92z4hyK33IQ==
+  dependencies:
+    reflect-metadata "^0.1.13"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
