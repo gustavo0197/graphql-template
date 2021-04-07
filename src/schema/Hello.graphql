@@ -1,12 +1,12 @@
 type Query {
-  Hello(name: String, lastname: String): String!
+  HelloQuery(name: String, lastname: String): String!
 }
 
 type Mutation {
-  Hello(name: String): String!
+  HelloMutation(name: String): String!
 }
 
 
 type Subscription {
-  Hello(name: String): String
+  HelloSubscription(name: String): String
 }

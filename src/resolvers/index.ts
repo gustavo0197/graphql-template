@@ -2,16 +2,8 @@ import { fileLoader } from "merge-graphql-schemas";
 import { join } from "path";
 import { getResolvers } from "@gustavo0197/graphql-typescript";
 
-const queries = fileLoader(join(`${__dirname}/queries/`), {
+const resolvers = fileLoader(join(`${__dirname}/*.resolver.ts`), {
   extensions: [".ts"],
 });
 
-const mutations = fileLoader(join(`${__dirname}/mutations/`), {
-  extensions: [".ts"],
-});
-
-const subscriptions = fileLoader(join(`${__dirname}/subscriptions/`), {
-  extensions: [".ts"],
-});
-
-export default getResolvers([...queries, ...mutations, ...subscriptions]);
+export default getResolvers(resolvers);
